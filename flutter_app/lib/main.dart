@@ -44,6 +44,8 @@ class MainApp extends StatelessWidget {
     try {
       final String host = getLocalhostAccordingToPlatform();
       var options = <String, dynamic>{};
+
+      //permet de personaliser le header HTTP origin
       options['origin'] = 'http://$host:3333';
 
       final response = await Dio().get(
