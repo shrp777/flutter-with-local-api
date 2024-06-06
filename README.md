@@ -2,6 +2,11 @@
 
 Ce projet illustre la communication entre une application mobile et une API **locale**, nécessitant l'adaptation dynamique de l'adresse de l'API en fonction du type d'application (mobile : iOS / Android, web, desktop...).
 
+## Structure
+
+- `./flutter_app` : Application cross-platforms développée avec Flutter
+- `./api` : API REST développée avec Express.js (Node.js)
+
 ## Installation et lancement de l'API
 
 - se placer dans le dossier **api**
