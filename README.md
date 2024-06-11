@@ -10,7 +10,7 @@ Ce projet illustre la communication entre une application mobile et une API **lo
 
 **Important** : l'API doit retourner un header HTTP : `Access-Control-Allow-Origin: *`
 
-## Installation et lancement de l'API (version Node.js)
+## Installation et lancement de l'API (version Express.js + Node.js)
 
 - se placer dans le dossier **nodejs_api**
 - installer les dépendances NPM : `npm i`
@@ -19,7 +19,7 @@ Ce projet illustre la communication entre une application mobile et une API **lo
 
 OU
 
-## Installation et lancement de l'API Node.js (version PHP)
+## Installation et lancement de l'API (version Slim Framework + PHP)
 
 - se placer dans le dossier **php_api**
 - démarrer le service Docker : `docker compose up`
