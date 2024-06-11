@@ -1,0 +1,12 @@
+services:
+  api:
+    image: canals/php:latest
+    ports:
+      - "3333:80"
+      - "3443:443"
+    #    env_file:
+    #      - ./.proxy_env
+    volumes:
+      - ./public:/var/www/html
+      - ./src:/var/www/src
+    working_dir: /var/www/src

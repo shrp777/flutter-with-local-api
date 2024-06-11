@@ -5,14 +5,26 @@ Ce projet illustre la communication entre une application mobile et une API **lo
 ## Structure
 
 - `./flutter_app` : Application cross-platforms développée avec Flutter
-- `./api` : API REST développée avec Express.js (Node.js)
+- `./nodejs_api` : API REST développée avec Express.js (Node.js)
+- `./nodejs_api` : API REST développée avec Slim Framework (PHP)
 
-## Installation et lancement de l'API
+## Installation et lancement de l'API (version Node.js)
 
-- se placer dans le dossier **api**
+- se placer dans le dossier **nodejs_api**
 - installer les dépendances NPM : `npm i`
 - démarrer l'API locale : `npm start`
 - consulter l'API locale à l'adresse : <http://localhost:3333/fruits>
+
+OU
+
+## Installation et lancement de l'API Node.js (version PHP)
+
+- se placer dans le dossier **php_api**
+- démarrer le service Docker : `docker compose up`
+- installer les dépendances depuis le container du service API : `composer install`
+- consulter l'API locale à l'adresse : <http://localhost:3333/fruits>
+
+NE PAS LANCER LES 2 API EN MEME TEMPS
 
 `curl -i localhost:3333/fruits`
 
