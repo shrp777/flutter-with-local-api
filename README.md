@@ -8,6 +8,8 @@ Ce projet illustre la communication entre une application mobile et une API **lo
 - `./nodejs_api` : API REST développée avec Express.js (Node.js)
 - `./nodejs_api` : API REST développée avec Slim Framework (PHP)
 
+**Important** : l'API doit retourner un header HTTP : `Access-Control-Allow-Origin: *`
+
 ## Installation et lancement de l'API (version Node.js)
 
 - se placer dans le dossier **nodejs_api**
